@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="My Creative Portfolio" />
+  <title>Portfolio</title>
+  <!-- Font Awesome for GitHub Icon -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  integrity="sha512-xh6O0jvZ5Hq1Z/3D1PwGnqfR6y5JjHnH8hz7iI3NfFFPZw+q3iLwTjEhfwav5fupW+J5o1O9n7FJ0p6kz+8zRw=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+
+  <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("5LaJZHAdw4_9GeaaU"); // Replace with your EmailJS Public Key
+   })();
+</script>
+
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="navbar container">
+      <div class="logo"><a href="#">MyPortfolio<span>.</span></a></div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm <span>Mythili Bandaru</span></h1>
+      <p>I'm on a journey to turn ideas into digital solutions, learning and growing with each project</p>
+      <a href="#projects" class="cta">Explore My Work</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="assets/profile.jpg" alt="Profile" class="profile-img" />
+        <div class="bio">
+          <p>
+            I'm a student passionate about web development and problem solving, dedicated to creating innovative and user-friendly digital experiences.
+            I love turning ideas into functional websites while continuously learning new technologies to sharpen my skills.
+          </p>
+          <a href="#contact" class="cta glow">Let's Connect</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2>My Skills</h2>
+      <div class="skills-container">
+        <div class="skill">
+          <h3>HTML & CSS</h3>
+          <div class="skill-bar"><div class="skill-level" data-level="90%"></div></div>
+        </div>
+        <div class="skill">
+          <h3>JavaScript</h3>
+          <div class="skill-bar"><div class="skill-level" data-level="80%"></div></div>
+        </div>
+        <div class="skill">
+          <h3>React</h3>
+          <div class="skill-bar"><div class="skill-level" data-level="75%"></div></div>
+        </div>
+        <div class="skill">
+          <h3>MySQL</h3>
+          <div class="skill-bar"><div class="skill-level" data-level="70%"></div></div>
+        </div>
+        <div class="skill">
+          <h3>Problem Solving</h3>
+          <div class="skill-bar"><div class="skill-level" data-level="85%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="project-cards">
+        <div class="project-card">
+          <img src="assets/project1.jpg" alt="Project 1" />
+          <div class="project-info">
+            <h3>Haven'Dine</h3>
+            <p>A modern and responsive restaurant website designed to showcase menus, ambiance, and online reservations seamlessly built using React js </p>
+            <a href="https://your-project-link-1.com" target="_blank" class="visit-btn">Visit Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="assets/project2.jpg" alt="Project 2" />
+          <div class="project-info">
+            <h3>Driver Drowsiness Detection System</h3>
+            <p>Developed a system that detects driver drowsiness using computer vision and triggers real-time alerts to prevent accidents.</p>
+            <a href="https://your-project-link-2.com" target="_blank" class="visit-btn">Visit Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="assets/project3.jpg" alt="Project 3" />
+          <div class="project-info">
+            <h3>To Do List</h3>
+            <p>Developed an interactive To-Do List application with task addition, deletion, and completion tracking features.</p>
+            <a href="https://your-project-link-3.com" target="_blank" class="visit-btn">Visit Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="certifications" id="certifications">
+    <div class="container">
+      <h2>Certifications</h2>
+      <div class="cert-cards">
+  <a href="assets/certificate1.jpeg" target="_blank" class="cert-card">
+    <h3>Python Essentials</h3>
+    <p>Certificate in Python Essentials, covering core concepts and programming fundamentals.</p>
+  </a>
+
+  <a href="assets/certificate2.jpeg" target="_blank" class="cert-card">
+    <h3>Data Analytics</h3>
+    <p>Completed Deloitte’s virtual internship focused on data analysis and visualization.</p>
+  </a>
+
+  <a href="assets/certificate3.jpeg" target="_blank" class="cert-card">
+    <h3>Prompt Engineering</h3>
+    <p>Certificate demonstrating expertise in Prompt Engineering from SkillCraft Technologies.</p>
+  </a>
+</div>
+
+    </div>
+  </section>
+
+<!-- GITHUB BUTTON SECTION -->
+<section class="github-section">
+  <div class="container">
+    
+    <a href="https://github.com/mythilibandaru" target="_blank" class="cta glow github-btn">
+      <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/github-white-icon.png">
+      <i class="fa-brands fa-github"></i> Visit My GitHub
+    </a>
+  </div>
+</section>
+
+
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      
+        <form class="contact-form" id="contact-form">
+  <input type="text" name="from_name" placeholder="Your Name" required />
+  <input type="email" name="from_email" placeholder="Your Email" required />
+  <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+  <button type="submit" class="cta glow">Send Message</button>
+</form>
+
+      
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Mythili. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
